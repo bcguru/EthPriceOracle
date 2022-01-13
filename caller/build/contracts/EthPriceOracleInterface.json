@@ -27,21 +27,21 @@
     "absolutePath": "project:/contracts/EthPriceOracleInterface.sol",
     "exportedSymbols": {
       "EthPriceOracleInterface": [
-        123
+        268
       ]
     },
-    "id": 124,
+    "id": 269,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 117,
+        "id": 262,
         "literals": [
           "solidity",
           "0.5",
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:22:1"
+        "src": "0:22:3"
       },
       {
         "baseContracts": [],
@@ -49,9 +49,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 123,
+        "id": 268,
         "linearizedBaseContracts": [
-          123
+          268
         ],
         "name": "EthPriceOracleInterface",
         "nodeType": "ContractDefinition",
@@ -59,29 +59,29 @@
           {
             "body": null,
             "documentation": null,
-            "id": 122,
+            "id": 267,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getLatestEthPrice",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 118,
+              "id": 263,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "88:2:1"
+              "src": "88:2:3"
             },
             "returnParameters": {
-              "id": 121,
+              "id": 266,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 120,
+                  "id": 265,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 122,
-                  "src": "107:7:1",
+                  "scope": 267,
+                  "src": "107:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -89,10 +89,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 119,
+                    "id": 264,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "107:7:1",
+                    "src": "107:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -102,27 +102,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "106:9:1"
+              "src": "106:9:3"
             },
-            "scope": 123,
-            "src": "62:54:1",
+            "scope": 268,
+            "src": "62:54:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 124,
-        "src": "24:95:1"
+        "scope": 269,
+        "src": "24:95:3"
       }
     ],
-    "src": "0:121:1"
+    "src": "0:121:3"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "project:/contracts/EthPriceOracleInterface.sol",
       "exportedSymbols": {
         "EthPriceOracleInterface": [
-          123
+          268
         ]
       }
     },
@@ -135,9 +135,9 @@
             ".0"
           ]
         },
-        "id": 117,
+        "id": 262,
         "name": "PragmaDirective",
-        "src": "0:22:1"
+        "src": "0:22:3"
       },
       {
         "attributes": {
@@ -151,10 +151,10 @@
           "documentation": null,
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            123
+            268
           ],
           "name": "EthPriceOracleInterface",
-          "scope": 124
+          "scope": 269
         },
         "children": [
           {
@@ -168,7 +168,7 @@
                 null
               ],
               "name": "getLatestEthPrice",
-              "scope": 123,
+              "scope": 268,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -181,9 +181,9 @@
                   ]
                 },
                 "children": [],
-                "id": 118,
+                "id": 263,
                 "name": "ParameterList",
-                "src": "88:2:1"
+                "src": "88:2:3"
               },
               {
                 "children": [
@@ -191,7 +191,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 122,
+                      "scope": 267,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -204,34 +204,34 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 119,
+                        "id": 264,
                         "name": "ElementaryTypeName",
-                        "src": "107:7:1"
+                        "src": "107:7:3"
                       }
                     ],
-                    "id": 120,
+                    "id": 265,
                     "name": "VariableDeclaration",
-                    "src": "107:7:1"
+                    "src": "107:7:3"
                   }
                 ],
-                "id": 121,
+                "id": 266,
                 "name": "ParameterList",
-                "src": "106:9:1"
+                "src": "106:9:3"
               }
             ],
-            "id": 122,
+            "id": 267,
             "name": "FunctionDefinition",
-            "src": "62:54:1"
+            "src": "62:54:3"
           }
         ],
-        "id": 123,
+        "id": 268,
         "name": "ContractDefinition",
-        "src": "24:95:1"
+        "src": "24:95:3"
       }
     ],
-    "id": 124,
+    "id": 269,
     "name": "SourceUnit",
-    "src": "0:121:1"
+    "src": "0:121:3"
   },
   "compiler": {
     "name": "solc",
@@ -239,7 +239,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-13T08:15:01.016Z",
+  "updatedAt": "2022-01-13T13:06:31.524Z",
   "devdoc": {
     "methods": {}
   },
