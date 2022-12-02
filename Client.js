@@ -27,6 +27,7 @@ async function init() {
     return { callerContract, ownerAddress, client, web3js }
 }
 
+// this is sample for pull request
 (async () => {
     //init caller and filter events of caller contract
     const { callerContract, ownerAddress, client, web3js } = await init()
